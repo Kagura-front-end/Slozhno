@@ -203,6 +203,18 @@ p {
     border: 1px solid var(--text-color-main);
 }
 
+.articles {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
 .pictures__title {
 color: var(--text-color-transparent);
 background-color: var(--highlighted-area);

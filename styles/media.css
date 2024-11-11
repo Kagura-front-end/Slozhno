@@ -2,16 +2,22 @@
     .two-column {
         max-width: 314px;
     }
+    .articles {
+        justify-content: space-between;
+    }
 }
 
 @media (width > 768px) {
     .one-column {
         max-width: 648px;
     }
+    .article {
+        flex-direction: column;
+    }
 }
 
-@media (425px < width <= 768px) {
+@media (376px < width <= 768px) {
     .one-column {
-        max-width: 472px;
+        max-width: 376px;
     }
 }
