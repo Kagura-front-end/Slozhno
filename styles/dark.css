@@ -27,7 +27,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-    .page.theme_auto {
+    .page.theme_dark {
         --background: url('../images/cover-image-dark.png');
         --background-color: var(--dark);
     }
